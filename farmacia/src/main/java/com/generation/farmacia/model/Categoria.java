@@ -25,6 +25,9 @@ public class Categoria {
 	@NotNull(message = "O atributo descrição é obrigatório")
 	private String descricao;
 	
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "categoria", cascade = CascadeType.REMOVE)
+	@JsonIgnoreProperties("categoria")
+	private List<Produto> produto;
 
 	public Long getId() {
 		return id;
