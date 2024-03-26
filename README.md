@@ -1,7 +1,7 @@
 
 # Performance Goals: CRUD Farmácia
 
-O atual diretório é a resolução do desafio performance goals do segundo bloco(Backend) do bootcamp de Java Fullstack da Generation Brasil. O código foi escrito utilizando o framework Spring boot
+O atual diretório é a resolução do desafio performance goals do segundo bloco(Backend) do bootcamp de Java Fullstack da Generation Brasil. O código foi escrito utilizando o framework Spring boot.
 
 
 ## Documentação
